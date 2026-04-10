@@ -29,4 +29,7 @@ Food Overlap: Fixed by using a while loop to ensure food never spawns on a coord
 The 180-Turn Bug: Solved by implementing a direction_lock boolean that resets only after the game state updates, preventing the snake from "folding" into itself.
 Interface Stuck: Fixed by mapping the K_ESCAPE key to global state resets, ensuring the player is never trapped on a Game Over screen.
 -----------------------------------------
-"I built this using a State Machine approach. Instead of just having a game that runs, the code knows whether it's in 'Menu mode' or 'Play mode.' I also added a Direction Lock which is a professional touch to prevent the snake from dying due to fast typing. As you play, the game calculates your score and dynamically increases the speed, making it a true 'Pro Edition' experience."
+"I built this using a State Machine approach. Instead of just having a game that runs, the code knows whether it's in 'Menu mode' or 'Play mode.' I also added a Direction Lock which is a professional touch to prevent the snake from dying due to fast typing. As you play, the game calculates your score and dynamically increases the speed, making it a true 'Pro Edition' experience." 
+--
+
+Make sure install "pip install pygame" in your terminal especiall Visual Studio Code Editor
